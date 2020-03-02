@@ -1,0 +1,102 @@
+body {
+  background-color:black;
+  overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fonts/Gotham-Black.woff') format('woff'),
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+.navbar{
+  font-family: 'Gotham-Medium';
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-brand{
+  font-size: 13px;
+}
+#logo{
+  width: 300px;
+  height: auto;
+  margin-top: 100px;
+}
+#tabs{
+  padding-bottom: 17px;
+  border-bottom: 3px solid white;
+}
+#second-row{
+  background-image: url(../images/15.png);
+}
+.card{
+  background-color: unset;
+}
+.fa:hover{
+ border-bottom: 2px solid white;
+}
+.container-fluid{
+  height: 600px;
+}
+.card-img-top{
+  border: 15px solid black;
+}
+#side{
+  width: 450px;
+  padding: 30px;
+  border: 1px solid black;
+  background-color: black;
+  transform: rotate(-90deg);
+  transform-origin: 20% 40%;
+  margin-left: 1210px;
+  margin-top: -100px;
+  margin-bottom: 100px;  
+}
+#color1{
+  color: #76a57c;
+}
+#color2{
+  color: #ed008c;
+}
+#color3{
+  color: #d79500;
+}
+#up{
+  margin-top: -100px;
+}
+
+#second-last img{
+  width: 150px;
+  height: 100px;
+  padding-top: 50px;
+}
+hr{
+  background-color: grey;
+}
+#footer-up img{
+width: 200px;
+}
+footer{
+  background-color: #231f20;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  #footer-up .col-md-6{
+    width: 60%;
+    margin: auto;
+  }
+}
